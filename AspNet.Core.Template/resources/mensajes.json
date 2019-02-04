@@ -1,0 +1,1043 @@
+﻿[
+  {
+    "id": 1,
+    "mensaje": "Uno"
+  },
+  {
+    "id": 249,
+    "mensaje": "No se permite capturar caracteres especiales (sólo el guión bajo), espacios en blanco, números, letra Ñ y acentos. Debe tener entre 3 y 30 caracteres, permitiendo sólo el uso de mayúsculas."
+  },
+  {
+    "id": 747,
+    "mensaje": "Lo sentimos, actualmente existe un (a) {0} con el mismo nombre. Por favor ingresa otro nombre para poder continuar."
+  },
+  {
+    "id": 748,
+    "mensaje": "Lo sentimos para poder modificar ésta entidad es necesario asignar como mínimo: Nombre de la entidad."
+  },
+  {
+    "id": 749,
+    "mensaje": "<b>Nota:</b> No se permite capturar caracteres especiales (sólo guion bajo), espacios en blanco, números, letra \"Ñ\" y acentos, debe tener entre 3 y 30 caracteres, permitiendo sólo el uso de mayúsculas."
+  },
+  {
+    "id": 751,
+    "mensaje": "La operación fue realizada con éxito."
+  },
+  {
+    "id": 756,
+    "mensaje": "es estático."
+  },
+  {
+    "id": 761,
+    "mensaje": "Lo sentimos, no puedes agregar más atributos a éste (a) {0}, se ha excedido el límite permitido."
+  },
+  {
+    "id": 765,
+    "mensaje": "Se eliminó satisfactoriamente  {0} {1}: {2}."
+  },
+  {
+    "id": 766,
+    "mensaje": "Lo sentimos ésta (e) {0} no puede ser eliminado, actualmente se encuentra relacionado (a) a {1} ''nombre de la relación"
+  },
+  {
+    "id": 767,
+    "mensaje": "Lo sentimos, es necesario relacionar un catálogo para continuar."
+  },
+  {
+    "id": 769,
+    "mensaje": "Lo sentimos, no se permite símbolos ni números, debe tener entre 3 y 20 caracteres, permitiendo sólo el uso de mayúsculas."
+  },
+  {
+    "id": 770,
+    "mensaje": "Lo sentimos la consulta que has realizado no tiene resultados asociados, intenta con otra búsqueda."
+  },
+  {
+    "id": 771,
+    "mensaje": "Para poder crear un (a) {0} es necesario como mínimo definir: Nombre de {0}"
+  },
+  {
+    "id": 775,
+    "mensaje": "se encuentra relacionada a: {0}."
+  },
+  {
+    "id": 883,
+    "mensaje": "Lo sentimos, el nombre de está entidad no puede ser modificada, actualmente se encuentra asociada a un formulario."
+  },
+  {
+    "id": 940,
+    "mensaje": "contiene información destacada."
+  },
+  {
+    "id": 952,
+    "mensaje": "No se permite capturar caracteres especiales y números, debe tener entre 3 y 20 caracteres."
+  },
+  {
+    "id": 1039,
+    "mensaje": "Existen campos inválidos, favor de revisar para continuar."
+  },
+  {
+    "id": 1046, //M2_04
+    "mensaje": "¿Estás seguro que deseas eliminar {0} {1}? <ul>{2}</ul>"
+  },
+  {
+    "id": 1095,
+    "mensaje": "Lo sentimos, para poder continuar es necesario que se tenga una Entidad relacionada.. </br>"
+  },
+  {
+    "id": 1112,
+    "mensaje": "Lo sentimos, para modificar éste (a)  {0} es necesario asignar como mínimo: Nombre del / la  {0} y un atributo asignado a el / la  {0}.</br>"
+  },
+  {
+    "id": 1186,
+    "mensaje": "Los cambios fueron realizados satisfactoriamente."
+  },
+  {
+    "id": 1187,
+    "mensaje": "Éste(a) {0} no puede ser eliminado(a) ya que se encuentra relacionado(a) a un(a) {1} {2}.</br>"
+  },
+  {
+    "id": 1189,
+    "mensaje": "Existen cambios sin guardar, ¿estás seguro de salir?"
+  },
+  {
+    "id": 1191,
+    "mensaje": "Lo sentimos, es necesario indicar un catálogo para este campo seleccionado.</br>"
+  },
+  {
+    "id": 1199,
+    "mensaje": "El número máximo de caracteres es de {0}, siempre debe ser mayor o igual a 1 caracter. "
+  },
+  {
+    "id": 1207,
+    "mensaje": "Permite capturar caracteres especiales (guión bajo, guión, diagonal, asterisco), espacio en blanco. Debe tener entre 3 y 50 caracteres, permitiendo sólo el uso de mayúsculas."
+  },
+  {
+    "id": 1209,
+    "mensaje": "Lo sentimos, actualmente no es posible crear la dependencia, ya que el {0} contiene registros."
+  },
+  {
+    "id": 1213,
+    "mensaje": "Al eliminar un campo que se encuentra agrupado, se borraran los campos relacionados. ¿Quieres eliminar el campo?"
+  },
+  {
+    "id": 1214,
+    "mensaje": "¿Qué te gustaría eliminar?"
+  },
+  {
+    "id": 1217,
+    "mensaje": "se encuentra relacionado(a) a : {1}."
+  },
+  {
+    "id": 1405,
+    "mensaje": "Permite capturar caracteres especiales, números y letra Ñ. Debe tener entre 3 y 100 caracteres, permitiendo el uso mayúsculas, minúsculas y espacios en blanco"
+  },
+  {
+    "id": 1653,
+    "mensaje": "Se ha detectado que la(s) seccion(es) {0} se encuentra(n) repetida(s). Favor de verificar."
+  },
+  {
+    "id": 1797,
+    "mensaje": "La operación de creación falló, no se realizaron {0} cambio(s). </br>"
+  },
+  {
+    "id": 1798,
+    "mensaje": "La operación de actualización falló, no se realizaron {0} cambio(s). </br>"
+  },
+  {
+    "id": 1799,
+    "mensaje": "La operación de borrado falló, no se realizaron {0} cambio(s). </br>"
+  },
+  {
+    "id": 2225,
+    "mensaje": "{0} {1} {2} ha sido {3} con éxito. </br>"
+  },
+  {
+    "id": 2226,
+    "mensaje": "Este campo es obligatorio."
+  },
+  {
+    "id": 2469,
+    "mensaje": "¡Lo sentimos! Para poder guardar el tipo de expediente debe contar con: Nombre, Descripción, Abreviatura."
+  },
+  {
+    "id": 2475,
+    "mensaje": "Permite capturar caracteres especiales (guión bajo, guión, asteriscos, diagonal), números, letras Ñ y no acepta espacios en blanco. Debe tener entre 2 y 6 caracteres, permitiendo sólo el uso de mayúsculas."
+  },
+  {
+    "id": 2794,
+    "mensaje": "La configuración del folio ha sido {0} con éxito."
+  },
+  {
+    "id": 2795,
+    "mensaje": "Existen cambios sin guardar, ¿estás seguro de cancelar?"
+  },
+  {
+    "id": 2797,
+    "mensaje": "La operación de creación ha sido exitosa. </br>"
+  },
+  {
+    "id": 2798,
+    "mensaje": "La operación de actualización ha sido exitosa. </br>"
+  },
+  {
+    "id": 2799,
+    "mensaje": "La operación de borrado ha sido exitosa. </br>"
+  },
+  {
+    "id": 2842,
+    "mensaje": "¡Lo sentimos! Ha sobrepasado el límite de la longitud del atributo."
+  },
+  {
+    "id": 2844,
+    "mensaje": "Existen entidades donde ninguno de sus campos se encuentra agregado al contenedor y será eliminada del formulario. ¿Estás seguro de continuar?"
+  },
+  {
+    "id": 2878,
+    "mensaje": "¡Lo Sentimos! No es posible eliminar {0} {1} {2} {3} debido a que este no puede quedar vacío."
+  },
+  {
+    "id": 3007,
+    "mensaje": "No se permite capturar caracteres especiales, números y letra Ñ. Debe tener entre 3 y 30 caracteres, permitiendo el uso mayúsculas y espacios en blanco."
+  },
+  {
+    "id": 3074,
+    "mensaje": "Se identificó que el usuario no puede ser eliminado ya que cuenta con registro de actividades."
+  },
+  {
+    "id": 3075,
+    "mensaje": "Lo sentimos, pero es necesario que la clave tenga un mínimo de {0} caracteres y un máximo de {1} caracteres. Prueba de nuevo."
+  },
+  {
+    "id": 3076,
+    "mensaje": "Al parecer ambas claves no se parecen, prueba de nuevo."
+  },
+  {
+    "id": 3077,
+    "mensaje": "Para crear es necesario los siguientes datos: "
+  },
+  {
+    "id": 3078,
+    "mensaje": "La cuenta se encuentra registrada."
+  },
+  {
+    "id": 3079,
+    "mensaje": "Lo sentimos, no podemos guardar la información, es necesario completar: "
+  },
+  {
+    "id": 3080,
+    "mensaje": "{0} exitoso."
+  },
+  {
+    "id": 3081,
+    "mensaje": "Los campos de usuario y contraseña son obligatorios."
+  },
+  {
+    "id": 3083,
+    "mensaje": "Esa combinación de usuario/contraseña no es válida. Intenta de nuevo."
+  },
+  {
+    "id": 3084,
+    "mensaje": "Debido a los intentos fallidos hemos tenido que bloquear tu cuenta. Verifica con tu administrador el desbloqueo de la cuenta."
+  },
+  {
+    "id": 3085,
+    "mensaje": "Tu cuenta se encuentra actualmente {0}. Verifica con tu administrador el {1} de la misma."
+  },
+  {
+    "id": 3086,
+    "mensaje": "Lo sentimos, parece ser que la columna ya tiene registros. Te recomendamos agregar una nueva columna"
+  },
+  {
+    "id": 3090,
+    "mensaje": "Formularios en los que se encuentra:<br>"
+  },
+  {
+    "id": 3214,
+    "mensaje": "Parece ser que no has agregado {0} {1} {2} te recomendamos agregar mínimo un(a) {3} para que {4} {5} sea guardado(a), de lo contrario no será creado(a)."
+  },
+  {
+    "id": 3218,
+    "mensaje": "¡Lo sentimos! <br> Es necesario que mínimo 1 columna sea obligatoria, esto para que puedas darle mantenimiento a tus datos."
+
+  },
+  {
+    "id": 3487,
+    "mensaje": "Estas a punto de <b>activar</b> a el/los siguiente(s) usuario(s) ¿Estas seguro?. <br>  {0} "
+  },
+  {
+    "id": 3554,
+    "mensaje": "Has dejado incompletas las Condiciones, te recomendamos terminar la configuración o de lo contrario será eliminada."
+  },
+  {
+    "id": 3555,
+    "mensaje": "Permite capturar caracteres especiales, números y letra Ñ. Debe tener entre 3 y 30 caracteres, permitiendo el uso mayúsculas, minúsculas y espacios en blanco <br> y al menos uno debe de ser letra."
+  },
+  {
+    "id": 3646,
+    "mensaje": "¡Lo sentimos! <br>El/los campos no pueden ser archivados debido a que se le han realizado condiciones. Te recomendamos eliminar las condiciones del campo para poder archivar."
+  },
+  {
+    "id": 3742,
+    "mensaje": "El formato de la fotografía es incorrecto, los formatos configurados son: {0}"
+  },
+  {
+    "id": 3863,
+    "mensaje": "Estas a punto de activar a {0} siguiente(s) usuario(s) ¿Estas seguro?<br>{1}"
+  },
+  {
+    "id": 3864,
+    "mensaje": "¡Lo sentimos! Al parecer la imagen que tratas de agregar excede el tamaño configurado {0}"
+  },
+  {
+    "id": 3867,
+    "mensaje": "¡Lo sentimos! Al parecer no podemos conectarnos al servidor intenta nuevamente más tarde."
+  },
+  {
+    "id": 3868,
+    "mensaje": "Identificamos que existen campos agregados en el diseñador de formularios que pertenecen a la entidad: <b>{0}</b> que tratas de relacionar. Se perderá el progreso y/o las configuraciones realizadas ¿Estas seguro/a?"
+  },
+  {
+    "id": 3869,
+    "mensaje": "¡Lo sentimos! No es posible agregar la entidad, ya que el formulario se encuentra asociado a una tabla en {0}: <p> <b>{1}<b/>"
+  },
+  {
+    "id": 3871,
+    "mensaje": "¡Lo sentimos! Necesitamos mínimo una columna a \"mostrar\" en tu catálogo. Te recomendamos crear una nueva o dejar esta columna a \"mostrar\"."
+  },
+  {
+    "id": 3872,
+    "mensaje": "Los flujos de trabajo deben tener como mínimo: <br><br>• Nombre<br>• Elemento de trabajo<br>• Un evento inicial<br>• Un evento final<br>• Mínimo 1 tarea"
+  },
+  {
+    "id": 3873,
+    "mensaje": "No es posible eliminar el usuario ya que se encuentra relacionado a los modelos  <br> {0}"
+  },
+  {
+    "id": 3874,
+    "mensaje": "¿Estás seguro que deseas eliminar al usuario {0}?"
+  },
+  {
+    "id": 3876,
+    "mensaje": "¡Cuidado! Se detectó que el empleado seleccionado ya se encuentra como responsable de otra área, al realizar esta acción, se eliminará como responsable del área anterior, asignándolo a esta área, ¿Estás seguro que deseas continuar?"
+  },
+  {
+    "id": 3878,
+    "mensaje": "¡Cuidado! Se detectó que el área que desea borrar dependen otras áreas, al realizar esta acción, se eliminará el área seleccionada con sus áreas dependientes, ¿Estás seguro que deseas continuar?"
+  },
+  {
+    "id": 3879,
+    "mensaje": "¡Cuidado! Se detectó que el nivel seleccionado cuenta con un empleado responsable, al realizar esta acción, dicha relación será eliminada, ¿Estás seguro que deseas continuar?"
+  },
+  {
+    "id": 3882,
+    "mensaje": "¡Lo sentimos!, el catálogo seleccionado tiene dependencias con catálogos que no son de ubicación geográfica. Favor de verificar."
+  },
+  {
+    "id": 3884,
+    "mensaje": "Lo sentimos, el catálogo {0} ya tiene registros agregados y no es posible crear el nivel. Favor de verificar."
+  },
+  {
+    "id": 3887,
+    "mensaje": "¡Lo sentimos!, el registro seleccionado no puede ser eliminado debido a que el catálogo {0} relacionado al nivel {1}, cuenta con información y/o dependencias. Favor de verificar."
+  },
+  {
+    "id": 3888,
+    "mensaje": "Se identificó que el modelo {0}, se está intentando publicar nuevamente. ¿Estás seguro que deseas actualizar?"
+  },
+  {
+    "id": 3900,
+    "mensaje": "¡Lo sentimos!<br>No podemos guardar el registro, es necesario capturar toda la información de obligatoria con la información según el tipo de dato configurado."
+  },
+  {
+    "id": 3901,
+    "mensaje": "¡Lo sentimos!<br>No podemos guardar el dato ya que es igual a uno que registraste con anterioridad, intenta con otro diferente."
+  },
+  {
+    "id": 3902,
+    "mensaje": "¡Lo sentimos! Para poder editar este campo es necesario que elimines todas las tareas/eventos/canales y conexiones contenidas en tu flujo."
+  },
+  {
+    "id": 3922,
+    "mensaje": "¡Lo sentimos!<br>No es posible editar la máscara del campo, ya que tiene condición(es)."
+  },
+  {
+    "id": 3923,
+    "mensaje": "El texto no concuerda con la máscara."
+  },
+  {
+    "id": 3926,
+    "mensaje": "Para crear es necesario capturar los datos marcados como requeridos: {0}"
+  },
+  {
+    "id": 3929,
+    "mensaje": "El nombre de la columna no se puede eliminar ya que contiene datos."
+  },
+  {
+    "id": 3930,
+    "mensaje": "¡Lo sentimos!<br>No es posible agregar una categoría de nombre {0} ya que se utiliza en el proceso de Organización Geográfica."
+  },
+  {
+    "id": 4611,
+    "mensaje": "La ronda de asignación de creación no se encuentra configurada. Se creó <b>{0}</b> con folio <b>{1}</b> sin asignación inicial."
+  },
+  {
+    "id": 4652,
+    "mensaje": "Permite capturar caracteres especiales (. - /), números, acentos y letra Ñ. \n Debe tener entre 3 y 100 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de espacios en blanco."
+  },
+  {
+    "id": 3931,
+    "mensaje": "Lo sentimos. La contraseña ingresada es incorrecta. Vuelve a intentarlo."
+  },
+  {
+    "id": 3933,
+    "mensaje": "<b>Nota:</b> No permite capturar caracteres especiales. Debe tener entre 3 y 150 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de mayúsculas, minúsculas. espacios en blanco, números, acentos y letra Ñ."
+  },
+  {
+    "id": 3935,
+    "mensaje": "<b>¡Identificamos que la entidad contiene un atributo detalle!</b><br>Te recomendamos relacionarle un formulario para poder capturar los datos en la tabla. Ya que en modo \"captura directa\" el atributo detalle no tiene valor."
+  },
+  {
+    "id": 3936,
+    "mensaje": "No permite capturar caracteres especiales, números, acentos, letra Ñ y espacios en blanco. Debe tener entre 3 y 50 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso mayúsculas, minúsculas y números."
+  },
+  {
+    "id": 3937,
+    "mensaje": "No permite capturar caracteres especiales. Debe tener entre 3 y 50 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de mayúsculas, minúsculas, números, letras Ñ, acentos y espacios en blanco."
+  },
+  {
+    "id": 3938,
+    "mensaje": "No debe permitir caracteres especiales, acepta espacios en blanco, debe tener entre 3 y 200 caracteres, uno de ellos debe ser siempre una letra, debe permitir números, letras Ñ y acentos. Debe permitir el uso de mayúsculas y minúsculas."
+  },
+  {
+    "id": 3940,
+    "mensaje": "<b>Nota:</b> Permite capturar caracteres especiales, acentos y letra Ñ. Debe tener entre 3 y 30 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de espacios en blanco."
+  },
+  {
+    "id": 3942,
+    "mensaje": "<b>Nota:</b> No permite capturar caracteres especiales. Debe tener entre 3 y 30 caracteres, uno de ellos siempre debe ser una letra. Permite números, permitiendo solo el uso de mayúsculas. No debe permitir espacios en blanco al inicio y/o fin del nombre, ni más de un espacio entre palabras."
+  },
+  {
+    "id": 4982,
+    "mensaje": "Se creó <b>{0}</b> con folio <b>{1}</b> y se asignó a <b>{2}</b>"
+  },
+  {
+    "id": 4983,
+    "mensaje": "Se creó <b>{0}</b> con folio <b>{1}</b> de manera exitosa. Dar seguimiento para su asignación."
+  },
+  {
+    "id": 4984,
+    "mensaje": "<b>Nota:</b> No permite capturar caracteres especiales. Debe tener entre 3 y 30 caracteres, uno de ellos siempre debe ser una letra. Permite números, permitiendo solo el uso de mayúsculas. No debe permitir espacios en blanco al inicio y/o fin del nombre, ni más de un espacio entre palabras."
+  },
+  {
+    "id": 4987,
+    "mensaje": "¿Desea cancelar la asignación?"
+  },
+  {
+    "id": 4988,
+    "mensaje": "Se asignó <b>{0}</b> con folio <b>{1}</b> a <b>{2}</b></br>"
+  },
+  {
+    "id": 5370,
+    "mensaje": "Se creó <b>{0}</b> con folio <b>{1}</b> de manera exitosa."
+  },
+  {
+    "id": 3943,
+    "mensaje": "<b>Nota:</b> No permite capturar caracteres especiales, espacios en blanco, número y letra Ñ. Debe tener entre 2 y 10 caracteres, permitiendo el uso de mayúsculas."
+  },
+  {
+    "id": 3944,
+    "mensaje": "<b>Nota:</b> Permite capturar caracteres especiales (excepto <caracteres>), números, acentos y letra Ñ. \n Debe tener entre 3 y 150 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de espacios en blanco."
+  },
+  {
+    "id": 3945,
+    "mensaje": "<b>Nota:</b> No permite capturar caracteres especiales y números (excepto <caracteres>). Debe tener entre 3 y 150 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de mayúsculas, minúsculas. espacios en blanco, acentos y letra Ñ."
+  },
+  {
+    "id": 3968,
+    "mensaje": "¡Lo sentimos! <br> No se permite la captura de caracteres especiales ni números. Debe tener entre 3 y 255 caracteres <br>Es posible capturar acentos, mayúsculas, minúsculas y espacios en blanco (Excepto al inicio o al final, ni más de un espacio entre palabras). "
+  },
+  {
+    "id": 3970,
+    "mensaje": "Se eliminará la imagen seleccionada, favor de confirmar."
+  },
+  {
+    "id": 4035,
+    "mensaje": "¡Lo sentimos! Detectamos que esta columna no cuenta con registros, para hacerlo obligatorio es necesario indicar registros en el mantenimiento de la columna."
+  },
+  {
+    "id": 4130,
+    "mensaje": "¡Lo sentimos!, para modificar {0} de un atributo es necesario eliminarlo {1} {2}.</br>"
+  },
+  {
+    "id": 4131,
+    "mensaje": "¡Lo Sentimos! No es posible eliminar la(s) columna(s) del Catálogo debido a que este no puede quedar vacío y se debe dejar mínimo una columna como requerida"
+  },
+  {
+    "id": 4150,
+    "mensaje": "La confirmación no coincide con el correo electrónico especificado, favor de verificar."
+  },
+  {
+    "id": 4158,
+    "mensaje": "Se identificó que el usuario no puede ser eliminado ya que se encuentra publicado."
+  },
+  {
+    "id": 4160,
+    "mensaje": "Se borrará el registro seleccionado, favor de confirmar."
+  },
+  {
+    "id": 4471,
+    "mensaje": "No se han agregado Unidades Organizacionales al modelo, para asignar un empleado este dato es requerido por lo que se recomienda completar ese proceso o guardar el nivel sin un empleado."
+  },
+  {
+    "id": 4476,
+    "mensaje": "Se ha cambiado el usuario responsable del nivel, ¿desea continuar con el guardado?"
+  },
+  {
+    "id": 4517,
+    "mensaje": "¿Está seguro que desea eliminar {0} {4}{1} <br>{2} <br>dentro del elemento de trabajo {3}?"
+  },
+  {
+    "id": 4550,
+    "mensaje": "¿Está seguro que desea eliminar {0} tipo{1} de unidad{2} organizacional{3} <br>{4} <br>dentro del elemento de trabajo {5}?"
+  },
+  {
+    "id": 4601,
+    "mensaje": "Este nivel se encuentra en ejecución con el empleado {0}, ¿Está seguro de realizar el cambio?"
+  },
+  {
+    "id": 4603,
+    "mensaje": "¡Lo sentimos!<br>No es posible crear el nivel ya que la unidad organizacional y el empleado asignado existen en otro nivel ya registrado."
+  },
+  {
+    "id": 4635,
+    "mensaje": "La combinación de usuario/contraseña no es válida, verifique e intente nuevamente."
+  },
+  {
+    "id": 4639,
+    "mensaje": "Se perderá la información capturada ¿Desea continuar?"
+  },
+  {
+    "id": 4652,
+    "mensaje": "Permite capturar caracteres especiales (. - /), números, acentos y letra Ñ. \n Debe tener entre 3 y 100 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de espacios en blanco."
+  },
+  {
+    "id": 4665,
+    "mensaje": "Debe tener entre 3 y 100 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de caracteres especiales, el uso de mayúsculas, minúsculas, espacios en blanco, números, acentos y letra Ñ."
+  },
+  {
+    "id": 4691, //m2_65
+    "mensaje": "Los siguientes registros se están usando en la aplicación del cliente, y no es posible borrarlos por lo que se inactivarán.<br><ul>{0}</ul>¿Desea continuar?"
+  },
+  {
+    "id": 5095,
+    "mensaje": "¡Lo sentimos!<br>No es posible continuar, ya que existen campos obligatorios sin capturar en las siguientes secciones. <br> {0}"
+  },
+  {
+    "id": 5878,
+    "mensaje": "¿Estás seguro que deseas eliminar la fotografía de tu perfil?"
+  },
+  {
+    "id": 5032, //m1_27
+    "mensaje": "La acción fue realizada con éxito. Los registros seleccionados se encuentran en el listado de {0}."
+  },
+  {
+    "id": 5068, //m1_28
+    "mensaje": "La acción fue realizada con éxito. El registro seleccionado se encuentra en el listado de {0}."
+  },
+  {
+    "id": 5025, //m2_72
+    "mensaje": "Los registros seleccionados serán {0}, ¿Desea continuar?"
+  },
+  {
+    "id": 5041, //m2_73
+    "mensaje": "Los siguientes registros no podrán ser borrados ya que se están usando en la aplicación del cliente en estatus de inactivo, el resto serán borrados.<br><ul>{0}</ul>¿Deseas continuar?"
+  },
+  {
+    "id": 5073, //m2_74
+    "mensaje": "El registro seleccionado será {0}, ¿Desea continuar?"
+  },
+  {
+    "id": 4118,
+    "mensaje": "Es necesario que la nueva contraseña tenga mínimo 8 caracteres, así como también debe contener al menos un caracter especial y ser diferente a las 5 contraseñas anteriores."
+  },
+  {
+    "id": 4721,
+    "mensaje": "No permite capturar caracteres especiales, espacios, letra Ñ y acentos. Debe tener entre 3 y 15 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de minúsculas, números y guión medio. Debe iniciar y terminar con un número o una letra."
+  },
+  {
+    "id": 3969,
+    "mensaje": "Es necesario que la nueva contraseña tenga mínimo 8 caracteres, así como también debe contener al menos un caracter especial."
+  },
+  {
+    "id": 5357,
+    "mensaje": "Es necesario que la nueva contraseña tenga mínimo 6  caracteres."
+  },
+  {
+    "id": 4783, //m2_69
+    "mensaje": "El nivel {0} se trasladará al nivel {1}, ¿Está seguro de continuar? "
+  },
+  {
+    "id": 5358, //m1_29
+    "mensaje": "La acción fue realizada con éxito. El registro agregado se encuentra en el listado de Activos."
+  },
+  {
+    "id": 4600, //m2_62
+    "mensaje": "¡Lo sentimos!<br>Para continuar con el borrado es necesario mover o borrar las dependencias de éste nivel."
+  },
+  {
+    "id": 4784, //m2_62
+    "mensaje": "¡Lo sentimos!<br>No es posible inactivar la unidad organizacional ya que cuenta con niveles activos."
+  },
+  {
+    "id": 4588, //m2_62
+    "mensaje": "Se ha detectado que no se encuentra asignado a un nivel o unidad organizacional, verifique con su administrador para poder ingresar al sistema."
+  },
+  {
+    "id": 5435, //mt2_09
+    "mensaje": "Se ha generado un error inesperado al momento de la ejecución."
+  },
+  {
+    "id": 4592,
+    "mensaje": "La contraseña ingresada no coincide con la contraseña actual, favor de verificar."
+  },
+  {
+    "id": 4985,
+    "mensaje": "¿Está seguro que desea borrar la ronda {0}?"
+  },
+  {
+    "id": 4593,
+    "mensaje": "La contraseña ingresada y la contraseña actual son iguales, favor de verificar."
+  },
+  {
+    "id": 5453,
+    "mensaje": "Los campos Contraseña actual, Nueva contraseña y Confirmación contraseña son obligatorios."
+  },
+  {
+    "id": 4735,
+    "mensaje": "¡Atención! Los cambios que se hayan realizado en las características del Tipo de Envío se borrarán, ¿Desea continuar?"
+  },
+  {
+    "id": 6132,
+    "mensaje": "Esta combinación de Origen y Destino ya se encuentra en uso dentro de este Tipo de Envío, configure una combinación diferente."
+  },
+  {
+    "id": 4733,
+    "mensaje": "¡Atención! Al cancelar la configuración del Tipo de Envío, éste se perderá junto con sus características ¿Desea continuar?"
+  },
+  {
+    "id": 5145,
+    "mensaje": "No es posible realizar la asignación, debido a que no existe una ronda configurada."
+  },
+  {
+    "id": 4856, //M4_23
+    "mensaje": "Nota: No se permite capturar caracteres especiales ni letra ''Ñ'', solo se capturarán letras mayúsculas. Debe tener entre 3 y 30 caracteres, permitiendo sólo el uso de números y espacios en blanco."
+  },
+  {
+    "id": 5650, //M2_80
+    "mensaje": "¡Lo sentimos! El registro seleccionado no puede ser eliminado ya que se está usando en el modelo de negocio."
+  },
+  {
+    "id": 5173, //M2_76
+    "mensaje": "¡Lo sentimos!<br>No es posible borrar el formulario, ya que se encuentra asignado con la función de {0} y aún existen formularios agregados."
+  },
+  {
+    "id": 2227, //M2_17
+    "mensaje": "Se eliminaron/eliminó {0} siguiente(s) {1}:<br><ul>{2}</ul><br>Se identificó que {3} siguiente(s) {4} no pueden ser {5}:<br><ul>{6}</ul>"
+  },
+  {
+    "id": 5174, //M2_77
+    "mensaje": "Actualmente está asignado el formulario {0}, con la función de {1} ¿Desea cambiarlo por el formulario {2}?"
+  },
+  {
+    "id": 5234, //M2_77
+    "mensaje": "No es posible abrir el evento porque ha sido borrado de su agenda."
+  },
+  {
+    "id": 5789,
+    "mensaje": "El archivo seleccionado excede el tamaño permitido de {0}"
+  },
+  {
+    "id": 5790,
+    "mensaje": "El tipo de formato seleccionado {0} no es un formato válido."
+  },
+  {
+    "id": 5791,
+    "mensaje": "¿Desea eliminar el archivo {0}?"
+  },
+  {
+    "id": 5868,
+    "mensaje": "Debe tener entre 3 y 150 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de caracteres especiales, mayúsculas, minúsculas, espacios en blanco, números, acentos y letra Ñ."
+  },
+  {
+    "id": 6387, //MT1_02
+    "mensaje": "Las configuraciones elegidas se guardaron exitosamente."
+  },
+  {
+    "id": 6388, //MT2_13 [Regresar/Continuar]
+    "mensaje": "Las características que se hayan modificado hasta el momento se perderán ¿Desea continuar?"
+  },
+  {
+    "id": 6389, //MT3_05
+    "mensaje": "La imagen que trata de agregar excede el tamaño configurado de {0}, intente con una diferente."
+  },
+  {
+    "id": 6390, //MT3_06
+    "mensaje": "El formato de la imagen que trata de agregar, es diferente al configurado: {0}, intente con una diferente."
+  },
+  {
+    "id": 6400,
+    "mensaje": "Nota:<br> Debe tener entre 3 y 150 caracteres. Se permitirá el uso de caracteres especiales y espacios en blanco; no se permite el uso de números, letras Ñ y acentos. "
+  },
+  {
+    "id": 6386, //MT3_04
+    "mensaje": "Ingrese al menos 3 caracteres siendo uno de ellos una letra."
+  },
+  {
+    "id": 6627,
+    "mensaje": "No es posible agregar más de un registro al listado."
+  },
+  {
+    "id": 6628,
+    "mensaje": "Al activar esta opción, todos los casos se actualizarán con el formulario con el que fueron creados, omitiendo el \"formulario para actualizar\" asignado."
+  },
+  {
+    "id": 6629,
+    "mensaje": "¡Atención! Los cambios que no se hayan guardado hasta el momento se perderán, ¿desea continuar? "
+  },
+  {
+    "id": 6631,
+    "mensaje": "Actualmente la entidad {0} ya cuenta con el formulario {1} marcado como predeterminado. ¿Desea cambiar el formulario? "
+  },
+  {
+    "id": 4638,
+    "mensaje": "La fecha debe cumplir con el formato DD/MM/AAAA"
+  },
+  {
+    "id": 6809,
+    "mensaje": "No es posible abrir el expediente ya que no cuenta con privilegios de acceso"
+  },
+  {
+    "id": 6908,
+    "mensaje": "Actualmente existe otro {0} con el mismo {1}, para continuar ingrese uno diferente."
+  },
+  {
+    "id": 69008, //the good one
+    "mensaje": "Actualmente existe {2} {0} con el mismo {1}, para continuar ingrese uno diferente."
+  },
+  {
+    "id": 6386,
+    "mensaje": "Ingrese al menos 3 caracteres siendo uno de ellos una letra."
+  },
+  {
+    "id": 4734,
+    "mensaje": "Está por borrar {0} siguiente(s) registro(s):<br><br> <div style=\"width: auto; border-width: thin;border-style: solid; border-color: #dadada;  max-height: 115px; overflow: auto;\"><ul>{1}</ul></div>"
+  },
+  {
+    "id": 7119,
+    "mensaje": "Permite capturar caracteres especiales, mayúsculas, minúsculas, números, letras Ñ, espacios en blanco, un máximo de 50 caracteres y uno de ellos debe ser una letra."
+  },
+  {
+    "id": 7170,
+    "mensaje": "Se ha enviado el reporte del problema con éxito."
+  },
+  {
+    "id": 7437,
+    "mensaje": "No se detectó conexión con el servidor, verifique y vuelva a intentar."
+  },
+  {
+    "id": 7438,
+    "mensaje": "No se detectó conexión con el servidor, verifique y vuelva a intentar."
+  },
+  {
+    "id": 7678,
+    "mensaje": "No está permitido introducir una longitud menor a la configurada previamente. Intenta nuevamente con una cantidad igual o mayor."
+  },
+  {
+    "id": 7708,
+    "mensaje": "No es posible agregar la entidad, ya que el formulario se encuentra marcado como predeterminado para la entidad avanzada {0}."
+  },
+  {
+    "id": 7648,
+    "mensaje": "No es posible {0} la información de {1} ya que no cuenta con un área de captura asignada. Consulte a su administrador para solucionar este problema."
+  },
+  {
+    "id": 7861,
+    "mensaje": "Es posible que los últimos cambios no se guarden, ¿Desea continuar?."
+  },
+  {
+    "id": 7966,
+    "mensaje": "La ruta de acceso se ha copiado en el portapapeles"
+  },
+  {
+    "id": 8161,
+    "mensaje": "Debe tener entre 1 y 7 caracteres, permitiendo el uso de caracteres especiales, mayúsculas, minúsculas, números, acentos, letra Ñ y espacios en blanco (excepto al inicio, final o 2 espacios consecutivos)."
+  },
+  {
+    "id": 8175,
+    "mensaje": "Se creó el registro exitosamente."
+  },
+  {
+    "id": 8339,
+    "mensaje": "Debe tener entre 3 y 100 caracteres, uno de ellos debe ser siempre una letra, permitiendo el uso de caracteres especiales (excepto comillas sencillas), el uso de mayúsculas, minúsculas, espacios en blanco, números, acentos y letra Ñ."
+  },
+  {
+    "id": 8555,
+    "mensaje": "Para borrar el registro, seleccione continuar"
+  },
+  {
+    "id": 8634,
+    "mensaje": "Al cambiar de lugar el cargo {0} éste reportará a {1} ¿Está seguro de continuar?"
+  },
+  {
+    "id": 8780,
+    "mensaje": "El correo electrónico ingresado no es válido, verifique e intente nuevamente."
+  },
+  {
+    "id": 8790,
+    "mensaje": "No es posible eliminar el registro seleccionado debido a que:<br><br>Se encuentra asociado al (los) expediente(s):<br><br><ul>{0}</ul>"
+  },
+  {
+    "id": 8923,
+    "mensaje": "La consulta realizada no tiene resultados asociados, intente nuevamente."
+  },
+  {
+    "id": 8623,
+    "mensaje": "{0} {1} y su confirmación no coinciden, verifique e intente nuevamente."
+  },
+  {
+    "id": 8624,
+    "mensaje": "La acción solicitada se ha realizado con éxito."
+  },
+  {
+    "id": 8636,
+    "mensaje": "Actualmente ya existe esta combinación de usuario y oficina activos dentro del organigrama. Para continuar seleccione una diferente."
+  },
+  {
+    "id": 9125,
+    "mensaje": "Está por {0} {1} siguiente(s) {2}:<br><br><ul>{3}</ul>"
+  },
+  {
+    "id": 9338,
+    "mensaje": "El correo electrónico ingresado no se encuentra registrado en el sistema, verifique e intente nuevamente."
+  },
+  {
+    "id": 9339,
+    "mensaje": "Se ha enviado una nueva contraseña a su correo electrónico."
+  },
+  {
+    "id": 9340,
+    "mensaje": "Se ha superado el límite de intentos fallidos al ingresar su contraseña, por lo que su cuenta ha sido bloqueada. Verifique con su administrador para solucionar este problema."
+  },
+  {
+    "id": 9134,
+    "mensaje": "{0} registro(s) seleccionado(s) no puede(n) ser activado(s), debido a lo siguiente:<br><br><ul>{1}</ul>"
+  },
+  {
+    "id": 9135,
+    "mensaje": "{0} registro(s) seleccionado(s) no puede(n) ser inactivado(s), debido a lo siguiente:<br><br><ul>{1}</ul>"
+  },
+  {
+    "id": 9355,
+    "mensaje": "Lo sentimos!, para modificar el {0} es necesario eliminar la relación con el atributo {1}"
+  },
+  {
+    "id": 9395,
+    "mensaje": "​Los cambios no fueron guardados, debido a lo siguiente:<br><br><ul>{0}</ul>"
+  },
+  {
+    "id": 9396,
+    "mensaje": "Está por desbloquear a {0} siguiente(s) usuario(s):<br><br><ul>{1}</ul>"
+  },
+  {
+    "id": 9685,
+    "mensaje": "Está por {0} el registro seleccionado"
+  },
+  {
+    "id": 9411,
+    "mensaje": "Para agregar registros al catálogo {1}, es necesario que todos sus catálogos relacionados también tengan registros:<br><br><ul>{0}</ul>"
+  },
+  {
+    "id": 9662,
+    "mensaje": "Se {0} {1} siguiente(s) registro(s):<br><br><div style=\"width: auto; border-width: 0px;border-style: solid;     border-color: #dadada; max-height: 115px; overflow: auto;\"><ul>{2}</ul></div> <br>{3} registro(s) seleccionado(s) no puede(n) ser borrado(s), debido a lo siguiente:<br><br><div style=\"width: auto; border-width: 0px;border-style: solid;     border-color: #dadada;  max-height: 115px; overflow: auto;\"><ul>{4}</ul></div>"
+  },
+  {
+    "id": 96622,
+    "mensaje": "{0} registro(s) seleccionado(s) no puede(n) ser borrado(s), debido a lo siguiente:<br><br><div style=\"width: auto;border-width: 0px;border-style: solid;     border-color: #dadada;  max-height: 115px; overflow: auto;\"><ul>{1}</ul></div>"
+  },
+  {
+    "id": 10255, //MT2_43
+    "mensaje": "El usuario responsable ya tiene un evento asignado en la hora o fecha seleccionada ¿desea continuar?"
+  },
+  {
+    "id": 10258, //MT2_43
+    "mensaje": "La fecha fin debe de ser igual o posterior a la fecha de inicio."
+  },
+  {
+    "id": 10496, //MT2_43
+    "mensaje": "No es posible continuar debido a que no existen tipos de expediente configurados. Favor de contactar a su administrador."
+  },
+  {
+    "id": 4232, //M1_26
+    "mensaje": "El formato de la imagen es incorrecto, los formatos configurados son "
+  },
+  {
+    "id": 10735,
+    "mensaje": "Se ha activado la relación con un elemento de trabajo. El usuario tendrá la posibilidad de realizar una búsqueda de casos dentro del formulario."
+  },
+  {
+    "id": 10749,
+    "mensaje": "Se perderá la información capturada ¿Está seguro que desea desactivar la relación del expediente?"
+  },
+  {
+    "id": 10752,
+    "mensaje": "No es posible guardar los cambios, debido a que no se relacionó con otro registro. Relacione un expediente, o bien, desactive la opción para relacionar."
+  },
+  {
+    "id": 10787,
+    "mensaje": "No es posible abrir el tema de discusión ya que no cuenta con privilegios de acceso."
+  },
+  {
+    "id": 10788,
+    "mensaje": "No es posible continuar. {0} con folio {1} se ha relacionado previamente."
+  },
+  {
+    "id": 10858,
+    "mensaje": "Ya no cuentas con roles disponibles para asignar. Crea un rol nuevo, o bien, elimina la asignación de un rol de otro menú."
+  },
+  {
+    "id": 10814,
+    "mensaje": "Es necesario asignar al menos un rol."
+  },
+  {
+    "id": 11282,
+    "mensaje": "Debe ingresar mínimo 3 caracteres."
+  },
+  {
+    "id": 11425,
+    "mensaje": "¡Lo sentimos!<br>No es posible borrar el campo seleccionado ya que se encuentra configurado para filtrar una entidad en el formulario."
+  },
+  {
+    "id": 11548,
+    "mensaje": "No es posible eliminar el {0}."
+  },
+  {
+    "id": 11549,
+    "mensaje": "¿Estás seguro que deseas eliminar {0} {1}?<br>{2}"
+  },
+  {
+    "id": 11661,
+    "mensaje": "Lo sentimos, la dependencia no puede ser eliminada ya que se encuentra seleccionada para filtrar información."
+  },
+  {
+    "id": 11697,
+    "mensaje": "No se ha seleccionado el catálogo por el cual se filtrará este elemento."
+  },
+  {
+    "id": 11718,
+    "mensaje": "¡Lo sentimos!<br>La {0} no puede ser eliminada ya que {1} siguiente(s) campo(s) se encuentra(n) seleccionado(s) para filtrar información dentro del formulario.{2}"
+  },
+  {
+    "id": 11751,
+    "mensaje": "¡Lo sentimos!<br>No es posible cambiar la vista de: {0} ya que se encuentra filtrando información de otros campos dentro del formulario."
+  },
+  {
+    "id": 11786,
+    "mensaje": "¡Atención! Se configuró visualizar la tabla de manera agrupada. Si continúa esta configuración se perderá ¿Desea continuar?"
+  },
+  {
+    "id": 11830,
+    "mensaje": "No se ha seleccionado el atributo por el cual se van agrupar los registros."
+  },
+  {
+    "id": 11644,
+    "mensaje": "El archivo actual se encuentra subiéndose, para ver el progreso de subida consulta el administrador de archivos."
+  },
+  {
+    "id": 11966,
+    "mensaje": "Se detectó información capturada en campos que están por ocultarse. Si continúa, se perderá la información ¿Desea continuar?"
+  },
+  {
+    "id": 12442,
+    "mensaje": "El folio {0} se creó y no pudo ser enviado, ya que no existen usuarios configurados; dar seguimiento para su envío."
+  },
+  {
+    "id": 12443,
+    "mensaje": "Se creó <b>{0}</b> con folio <b>{1}</b> y fue asignado a la oficina <b>{2}</b>."
+  },
+  {
+    "id": 12476,
+    "mensaje": "No es posible atender el registro seleccionado debido que no existen tipos de expedientes disponibles. Favor de contactar a su administrador."
+  },
+  {
+    "id": 12533,
+    "mensaje": "No es posible enviar ya que no existen oficinas destino configuradas; dar seguimiento para su envío."
+  },
+  {
+    "id": 12132,
+    "mensaje": "No es posible continuar debido a que no existen usuarios en la oficina seleccionada. Favor de contactar a su administrador."
+  },
+  {
+    "id": 12590,
+    "mensaje": "No es posible enviar ya que la oficina origen se encuentra inactiva."
+  },
+  {
+    "id": 12591,
+    "mensaje": "Se regresó <b>{0}</b> con folio {1} a la oficina {2}."
+  },
+  {
+    "id": 13048,
+    "mensaje": "Este valor ya se encuentra registrado."
+  },
+  {
+    "id": 13202,
+    "mensaje": "Se identificó que el registro no puede ser eliminado:<br><ul>{0}</ul>"
+  },
+  {
+    "id": 13763,
+    "mensaje": "Esta columna está siendo utilizada para ordenar resultados. Si continúa, se restablecerá la configuración de ordenamiento. ¿Estás seguro que deseas continuar?"
+  },
+  {
+    "id": 13533,
+    "mensaje": "No es posible abrir el expediente debido que no existen ningún expediente relacionado."
+  },
+  {
+    "id": 13713,
+    "mensaje": "Al eliminar el acceso del usuario {0}, este ya no tendrá acceso al expediente {1} ¿Desea continuar?."
+  },
+  {
+    "id": 12440,
+    "mensaje": "Se detecto que los siguientes usuarios ya tiene(n) acceso autorizado al <b>{0}</b> con folio <b>{1}</b>:<p/>{2}"
+  },
+  {
+    "id": 12441,
+    "mensaje": "No es posible imprimir debido a que no cuentas con un reporte asignado a este elemento."
+  },
+  {
+    "id": 12444,
+    "mensaje": "Actualmente hay archivos adjuntos a la audiencia. Al borrarla, también serán removidos ¿Desea continuar?"
+  },
+  {
+    "id": 16902,
+    "mensaje": "Debe introducirse un valor entre 1 y 2000 días. No permite la captura de letras, caracteres especiales, números negativos o con decimales."
+  },
+  {
+    "id": 14052,
+    "mensaje": "Permite capturar caracteres especiales, números y letra Ñ \n Debe tener entre 3 y 30 caracteres , permitiendo el uso mayúsculas, minúsculas y espacios en blanco y acentos."
+  },
+  {
+    "id": 12545,
+    "mensaje": "Es posible que los últimos cambios no hayan sido guardados, ¿Desea guardar?"
+  },
+  {
+    "id": 11520,
+    "mensaje": "Nota: Permite capturar caracteres especiales, números y letra Ñ. Debe tener entre 3 y 100 caracteres, permitiendo el uso de mayúsculas, minúsculas y espacios en blanco y acentos."
+  },
+  {
+    "id": 17985,
+    "mensaje": "Nota: Permite capturar caracteres especiales, números y letra Ñ. Debe tener entre 3 y 150 caracteres, permitiendo el uso de mayúsculas, minúsculas y espacios en blanco y acentos."
+  },
+  {
+    "id": 17987,
+    "mensaje": "Se perderán todos los cambios que no hayan sido guardados. ¿Está seguro que desea salir?"
+  }
+]
