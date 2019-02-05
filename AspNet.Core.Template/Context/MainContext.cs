@@ -1,9 +1,5 @@
 ﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace AspNet.Core.Template.Context
 {
@@ -13,7 +9,7 @@ namespace AspNet.Core.Template.Context
 		
 		#region DbSet region
 
-
+		// TODO: Especificar las Entidades (DbSet) que utilizara el Microservicio
 
 		#endregion
 

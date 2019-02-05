@@ -1,5 +1,6 @@
 ﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 #region Usings
+using AspNet.Core.Template.Configurations.Automapper;
 using AspNet.Core.Template.Configurations.Cors;
 using AspNet.Core.Template.Configurations.Database;
 using AspNet.Core.Template.Configurations.DI;
@@ -39,6 +40,7 @@ namespace AspNet.Core.Template
 			services.ConfigureDI(_config);
 			services.ConfigureDatabase(_config);
 			services.ConfigureSwagger(_config);
+			services.ConfigureAutomapper();
 			services.ConfigureMvc();
 		}
 
