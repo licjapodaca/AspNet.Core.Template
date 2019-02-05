@@ -27,9 +27,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Content Update="resources\mensajes.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
+	  <Folder Include="Dto\" />
 	</ItemGroup>
 
 </Project>

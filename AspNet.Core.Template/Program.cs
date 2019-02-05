@@ -1,13 +1,13 @@
-﻿using System;
+﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+using System;
 using System.IO;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using Microsoft.ServiceFabric.Services.Runtime;
 using System.Diagnostics;
 using System.Threading;
-using Microsoft.Extensions.Logging.EventLog;
+using AspNet.Core.Template.Configurations.Logging;
 
 namespace AspNet.Core.Template
 {
@@ -33,8 +33,7 @@ namespace AspNet.Core.Template
 					// When Service Fabric creates an instance of this service type,
 					// an instance of the class is created in this host process.
 
-					ServiceRuntime.RegisterServiceAsync("TemisBackendType",
-				context => new Core(context)).GetAwaiter().GetResult();
+					ServiceRuntime.RegisterServiceAsync("TemisBackendType", context => new Core(context)).GetAwaiter().GetResult();
 
 					ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(Core).Name);
 
@@ -59,25 +58,10 @@ namespace AspNet.Core.Template
 				.UseKestrel()
 				.UseContentRoot(Directory.GetCurrentDirectory())
 				.UseIISIntegration()
-				.ConfigureLogging((hostingContext, logging) =>
-				{
-					logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-					if (hostingContext.Configuration.GetValue("Loggers:Console:Enabled", false))
-						logging.AddConsole();
-					if (hostingContext.Configuration.GetValue("Loggers:Debug:Enabled", false))
-						logging.AddDebug();
-					if (hostingContext.Configuration.GetValue("Loggers:EventLog:Enabled", false))
-					{
-						logging.AddEventLog(new EventLogSettings
-						{
-							LogName = hostingContext.Configuration.GetValue<string>("Loggers:EventLog:LogName"),
-							SourceName = hostingContext.Configuration.GetValue<string>("Loggers:EventLog:SourceName")
-						});
-					}
-					logging.AddEventSourceLogger();
-				})
+				.ConfigureLoggingMicroservice()
 				.UseStartup<Startup>()
 				.UseApplicationInsights()
 				.Build();
 	}
 }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member

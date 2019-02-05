@@ -1,14 +1,13 @@
-﻿using System.Collections.Generic;
+﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+using System.Collections.Generic;
 using System.Fabric;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 using Microsoft.ServiceFabric.Services.Communication.AspNetCore;
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
-using Microsoft.Extensions.Logging.EventLog;
+using AspNet.Core.Template.Configurations.Logging;
 
 namespace AspNet.Core.Template
 {
@@ -40,23 +39,7 @@ namespace AspNet.Core.Template
 										services => services
 											.AddSingleton<StatelessServiceContext>(serviceContext))
 									.UseContentRoot(Directory.GetCurrentDirectory())
-									.ConfigureLogging((hostingContext, logging) =>
-									{
-										logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-										if (hostingContext.Configuration.GetValue("Loggers:Console:Enabled", false))
-											logging.AddConsole();
-										if (hostingContext.Configuration.GetValue("Loggers:Debug:Enabled", false))
-											logging.AddDebug();
-										if (hostingContext.Configuration.GetValue("Loggers:EventLog:Enabled", false))
-										{
-											logging.AddEventLog(new EventLogSettings
-											{
-												LogName = hostingContext.Configuration.GetValue<string>("Loggers:EventLog:LogName"),
-												SourceName = hostingContext.Configuration.GetValue<string>("Loggers:EventLog:SourceName")
-											});
-										}
-										logging.AddEventSourceLogger();
-									})
+									.ConfigureLoggingMicroservice()
 									.UseStartup<Startup>()
 									.UseServiceFabricIntegration(listener, ServiceFabricIntegrationOptions.None)
 									.UseUrls(url)
@@ -66,3 +49,4 @@ namespace AspNet.Core.Template
 		}
 	}
 }
+#pragma warning restore CS1591 // Missing XML comment for publicly visible type or member
