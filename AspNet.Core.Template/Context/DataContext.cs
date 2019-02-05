@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AspNet.Core.Template.Context
 {
-	public class MainContext : DbContext
+	public class DataContext : DbContext
 	{
-		public MainContext(DbContextOptions<MainContext> options) : base(options) { }
+		public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 		
 		#region DbSet region
 

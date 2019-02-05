@@ -8,7 +8,7 @@ namespace AspNet.Core.Template.Services.Contracts
 {
 	public interface ISampleService
 	{
-
+		Task<List<string>> ObtenerDatosAsync();
 	}
 }
 #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member

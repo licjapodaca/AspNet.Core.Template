@@ -19,8 +19,8 @@ namespace AspNet.Core.Template.Configurations.Database
 			_config = config;
 
 			#region DI for EntityFramework
-			services.AddDbContext<MainContext>();
-			var descriptor = new ServiceDescriptor(typeof(DbContextOptions<MainContext>), DbContextOptionsFactory<MainContext>, ServiceLifetime.Scoped);
+			services.AddDbContext<DataContext>();
+			var descriptor = new ServiceDescriptor(typeof(DbContextOptions<DataContext>), DbContextOptionsFactory<DataContext>, ServiceLifetime.Scoped);
 			services.Replace(descriptor);
 			#endregion
 		}

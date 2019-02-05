@@ -16,6 +16,26 @@ namespace AspNet.Core.Template.Repositories.Implementations
 		{
 			_logger = logger;
 		}
+
+		public async Task<List<string>> ObtenerDatosAsync()
+		{
+			var lista = new List<string>();
+
+			try
+			{
+				return await Task.Run<List<string>>(() =>
+				{
+					lista.Add("Uno");
+					lista.Add("Dos");
+
+					return lista;
+				});
+			}
+			catch (Exception)
+			{
+				throw;
+			}
+		}
 	}
 }
 #pragma warning restore CS1591 // Missing XML comment for publicly visible type or member

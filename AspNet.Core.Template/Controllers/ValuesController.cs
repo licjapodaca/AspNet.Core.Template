@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using AspNet.Core.Template.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -14,14 +15,17 @@ namespace AspNet.Core.Template.Controllers
 	public class ValuesController : ControllerBase
 	{
 		private readonly ILogger _logger;
+		private readonly ISampleService _service;
 
 		/// <summary>
 		/// Constructor del Microservicio
 		/// </summary>
-		/// <param name="logger">Logging variable</param>
-		public ValuesController(ILogger<ValuesController> logger)
+		/// <param name="logger"></param>
+		/// <param name="service"></param>
+		public ValuesController(ILogger<ValuesController> logger, ISampleService service)
 		{
 			_logger = logger;
+			_service = service;
 		}
 
 		// GET api/values
@@ -33,21 +37,17 @@ namespace AspNet.Core.Template.Controllers
 		[Produces("application/json")]
 		[ProducesResponseType(200)]
 		[ProducesResponseType(500)]
-		public Task<IActionResult> Get()
+		public async Task<IActionResult> Get()
 		{
-			return Task.Run<IActionResult>(() =>
+			try
 			{
-				try
-				{
-					_logger.LogWarning(5000, "Prueba de logging...");
-
-					return Ok(new { id = 1, descr = "value1", descr2 = "value2", descr3 = "value3" });
-				}
-				catch (Exception)
-				{
-					throw;
-				}
-			});
+				var resultado = await _service.ObtenerDatosAsync();
+				return Ok(resultado);
+			}
+			catch (Exception)
+			{
+				throw;
+			}
 		}
 
 		/// <summary>
