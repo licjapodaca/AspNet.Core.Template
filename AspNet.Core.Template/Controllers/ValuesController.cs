@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using AspNet.Core.Template.Dto;
 using AspNet.Core.Template.Services.Contracts;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -16,16 +19,22 @@ namespace AspNet.Core.Template.Controllers
 	{
 		private readonly ILogger _logger;
 		private readonly ISampleService _service;
+		private readonly IMapper _mapper;
 
 		/// <summary>
 		/// Constructor del Microservicio
 		/// </summary>
 		/// <param name="logger"></param>
 		/// <param name="service"></param>
-		public ValuesController(ILogger<ValuesController> logger, ISampleService service)
+		/// <param name="mapper"></param>
+		public ValuesController(
+			ILogger<ValuesController> logger,
+			IMapper mapper,
+			ISampleService service)
 		{
 			_logger = logger;
 			_service = service;
+			_mapper = mapper;
 		}
 
 		// GET api/values
@@ -42,7 +51,8 @@ namespace AspNet.Core.Template.Controllers
 			try
 			{
 				var resultado = await _service.ObtenerDatosAsync();
-				return Ok(resultado);
+				
+				return Ok(_mapper.Map<IEnumerable<SampleDto>>(resultado));
 			}
 			catch (Exception)
 			{

@@ -51,7 +51,7 @@ namespace AspNet.Core.Template.Configurations.Database
 		{
 			var connectionString = string.Empty;
 
-			if (httpAccesor.HttpContext == null)
+			if (httpAccesor.HttpContext == null || !httpAccesor.HttpContext.User.Identity.IsAuthenticated)
 			{
 				connectionString = _config.GetConnectionString("DefaultConnection");
 			}

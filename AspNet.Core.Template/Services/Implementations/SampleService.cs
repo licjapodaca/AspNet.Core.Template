@@ -1,4 +1,5 @@
 ﻿#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
+using AspNet.Core.Template.Models;
 using AspNet.Core.Template.Repositories.Contracts;
 using AspNet.Core.Template.Services.Contracts;
 using Microsoft.Extensions.Logging;
@@ -20,7 +21,7 @@ namespace AspNet.Core.Template.Services.Implementations
 			_repository = repository;
 		}
 
-		public async Task<List<string>> ObtenerDatosAsync()
+		public async Task<List<SampleModel>> ObtenerDatosAsync()
 		{
 			try
 			{
