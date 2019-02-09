@@ -57,7 +57,7 @@ namespace AspNet.Core.Template
 			WebHost.CreateDefaultBuilder(args)
 				.UseKestrel()
 				.UseContentRoot(Directory.GetCurrentDirectory())
-				.UseIISIntegration()
+				//.UseIISIntegration()
 				.ConfigureLoggingMicroservice()
 				.UseStartup<Startup>()
 				.UseApplicationInsights()
